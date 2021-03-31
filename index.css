@@ -1,0 +1,414 @@
+
+  /* body background color */
+  .grad2 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #777777;
+    background-image: linear-gradient(to right bottom, #ff3366, #ba265d);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .headdeatails{
+    display: flex;
+    margin: 20px;
+    
+  }
+
+  .btn1{
+    font-size: 1rem;
+    width: 250px;
+    padding: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to right, #ff3366, #ba265d);
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .overlapimg{
+    margin: -10px;
+  }
+
+  .para2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .dp{
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 50px;
+    height: 50px;
+   
+  }
+
+  .prodp{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+  }
+
+  .txtalign{
+    text-align: center;
+  }
+
+  .recommendationbar{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  
+
+  .location{
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ff3366;
+  }
+
+  .stars{
+    color: #ff3366;
+  }
+
+  .locationalign{
+    text-align: right;
+  }
+
+  .logo1{
+    width: 50px;
+    height: auto;
+  }
+
+  .rating{
+    background-color: #ff3366;
+    color: white;
+    text-align: center;
+  }
+
+  .showall{
+    background-color: inherit;
+    text-decoration: underline;
+    text-align: center;
+    outline: 0;
+  }
+
+  .bargrid1{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 6fr 2fr 1fr;
+  }
+   
+  .maingrid{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+
+  .ingrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px;
+    background-color: #F7F6F6;
+    grid-column-gap: 30px;
+  }
+
+  .footerdiv{
+    background-color: white;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+
+  .divcontent1{
+    background-color: white ;
+    padding: 40px;
+  }
+
+  .divcontent2{
+    background-color: white;
+    padding: 30px;
+  }
+
+  .divcontent2grid{
+    display: grid;
+    grid-column: auto;
+    grid-row-gap: 30px;
+  }
+
+  .divcontent2gridbtn{
+    display: flex;
+    justify-content: center;
+  }
+
+  .gridmainlayout{
+    width: 1180px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+
+  .grid{
+    display: grid;
+    grid-template-columns: 200px 980px;
+  }
+
+  .forder1{
+    order: 1;
+  }
+
+  .forder2{
+    order: 1;
+  }
+  
+  .fontheader{
+    background-color: white;
+    
+  }
+
+  .grid2{
+      display: grid;
+      grid-template-columns: auto;
+
+  }
+
+  .Rating1{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .Rating2{
+    font-size: 10px;
+  }
+
+  
+
+  .flexbody{
+      display: flex;
+    }
+
+   
+  .img-gallery{
+      max-width: 430px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+
+  /* sidebar from w3 school */
+
+  .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #333333;
+
+      display: block;
+      height: 100%;
+      overflow: auto;
+    }
+    
+  .sidebar a {
+      display: block;
+      color: white;
+      padding:16px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+  .sidebar a.active {
+      background-color: #EB2F64;
+      color: white;
+    }
+    
+  .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    
+  div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+ 
+    .heading1{
+      font-size: 22px;
+      font-family:  Arial, Helvetica, sans-serif;
+      color: #333333;
+      
+    }
+
+    .listgrid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .arrowcolor{
+      color: #EB2F64;
+    }
+
+    ul li{
+      list-style-type: none;
+    }
+
+
+
+@media screen and (max-width: 1180px) {
+  
+  .ingrid{
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-row-gap: 20px ;
+    padding: 40px;
+    background-color: #F7F6F6;
+  }
+  
+  .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      font-size: 12px;
+
+  }
+
+  
+  
+  .flexbody{
+      display: block;
+  }
+
+
+  .grad2 {
+      background-image: linear-gradient(to right bottom,#FAF9F9, #FAF9F9);
+  }
+ 
+  
+  
+  .sidebar a {float: left;
+      width: 25%;
+      height: 9%;
+  }
+
+
+  div.content {
+      margin-left: 0;
+  }
+
+
+  .forder2{
+      order: 2;
+  }
+
+
+  .maingrid{
+      display: block;
+      margin-top: auto;
+      margin-bottom: auto;
+        
+  }
+
+
+  .heading1{
+    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    color: #333333;
+    
+  }
+    
+
+  .grid{
+      display: block;
+ }
+
+
+ .dp{
+  border-radius: 50%;
+  border: 3px solid #fff;
+  width: 40px;
+  height: 40px;
+ 
+}
+
+ .gridmainlayout{
+  width: auto;
+  box-shadow: none;
+  }
+
+  .bargrid1{
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+  }
+
+  .location{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff3366;
+}
+
+.stars{
+  color: #ff3366;
+  font-size: 14px;
+}
+
+.divcontent1{
+  background-color: white ;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.listgrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 15px;
+}
+
+.recommendation{
+  font-size: 10px;
+}
+
+
+.prodp{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+ 
+}
+
+.btn1{
+  width: 180px;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.para2{
+ 
+  font-size: 14px;
+  
+}
+
+.headdeatails{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  margin: 10px;
+  align-self: center;
+}
+
+  
+
+
+}
+
+
+
+
